@@ -1,0 +1,74 @@
+
+#address {
+    height: 23rem;
+}
+#address::before {
+    background: url('../IMG/shop-bg.jpg') no-repeat center center/cover;
+    content: " ";
+    position: absolute;
+    top: 0rem;
+    height: 23rem;
+    width: 100%;
+    z-index: -1;
+    opacity: .5;
+}
+
+
+.ad-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 0px auto;
+    width: 20rem;
+    padding: 3rem;
+}
+.ad-box h2 {
+text-decoration: underline;
+margin-bottom: 10px;
+color: rgb(255, 217, 113);
+}
+/* Form Section  */
+#form {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 3rem 0px;
+    color: black;   
+}
+
+#form h1{ 
+text-align: center;
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+.form-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px 5rem;
+    width: 20rem;
+}
+.form-box textarea,
+.form-box > input{
+    padding: .1rem 2.5rem;
+    border-radius: 14px;
+}
+
+.submit {
+    background-color: rgb(47, 201, 240);
+    font-size: 1.27rem;
+    padding: 4px 40px;
+    border-radius: 7px;
+    color: black;
+    margin: 1rem;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: rgb(0, 162, 255);
+}

@@ -1,0 +1,89 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation Scetion  */
+#navbar {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    background-color: rgb(255, 217, 4);
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.logo img {
+    width: 50px;
+    margin: 0px 0px 0px 13px;
+    padding: 0px;
+}
+
+
+
+#navbar ul {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li {
+    list-style: none;
+    padding: 8px 17px;
+}
+#navbar ul li a {
+    font-size: 1.1rem;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    transition-property: background-color color;
+    transition-duration: .5s;
+}
+#navbar ul li a:hover,
+#navbar ul li a:active {
+    color: yellow;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.icon {
+    display: flex;
+}
+.icon img {
+    width: 20px;
+    padding: 0px .5rem;
+}
+
+
+/* Footer Section  */
+#footer {
+    background-color: black;
+    color: white;
+    padding: 19px;
+    margin: 0px;
+}
+#footer p { 
+    font-size: 1rem;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}

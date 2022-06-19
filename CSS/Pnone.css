@@ -1,0 +1,129 @@
+/* body {
+    width: 100%;
+} */
+
+/* Header Section */
+
+
+
+
+/* Navigation Section */
+
+#navbar {
+    width: 100%;
+}
+.icon {
+
+}
+.icon img {
+    width: .8rem;
+   
+}
+
+#navbar ul li {
+    padding: 0px;
+}
+#navbar ul li a {
+    font-size: .7rem;
+    padding: 0px 4px 0px 4px;
+   
+}
+
+/* Home Section */
+
+#home {
+    height: 24rem;
+    width: 100%;
+    margin-top: 3.5rem;
+}
+
+#home::before {
+    top: -15rem;
+}
+
+#home h1 {
+ margin: 0px;
+    font-size: 2.5rem;
+}
+#home p {
+    font-size: 1rem;
+}
+
+
+
+/* Shop Section */
+
+#shop .contaier {
+    flex-direction: column;
+flex-wrap: wrap;
+}
+.shop-item {
+    width: 49%;
+}
+
+.shop-item img {
+    width: 6rem;
+  }
+  .shop-text {
+    font-size: .8rem;
+}
+
+/* Gallery Section */
+
+.gallery-img {
+    width: 7rem;
+}
+
+
+
+/* Client Section */
+
+#client .contaier {
+    flex-wrap:wrap-reverse;
+}
+.client-item {
+    width: 7rem;
+    padding: 6px 0px; 
+}
+
+
+/* Contact Section */
+#contact .container{
+flex-direction: column;
+}
+.form {
+padding: 1rem 0rem;
+
+}
+
+.form-input {
+    padding: 1px 26px;
+    margin: 2px;
+    border-radius: 4px;
+    font-size: .6rem;
+}
+.address {
+padding: 0rem 0rem;
+margin-top: .6rem;
+}
+.address-text {
+    width: 15rem;
+}
+.social {
+    padding: 1rem 0rem;
+}
+/* Footer Section  */
+
+#footer p {
+    font-size: .8rem;
+}
+
+/* Utility Section */
+
+.contaier {
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 2rem;
+}
